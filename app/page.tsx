@@ -1,7 +1,9 @@
+import Navigation from "../components/navigation";
+
 const page = () => {
     return (
         <div>
-            Hello next.
+            <Navigation />
         </div>
     );
 }
