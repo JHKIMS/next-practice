@@ -1,9 +1,11 @@
-import Navigation from "../components/navigation";
+export const metadata = {
+    title: "HOME",
+};
 
 const page = () => {
     return (
         <div>
-            <Navigation />
+            Main Home
         </div>
     );
 }
