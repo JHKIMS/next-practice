@@ -26,12 +26,12 @@ declare module 'next/cache' {
     /**
      * Cache this `"use cache"` for a timespan defined by the `"seconds"` profile.
      * ```
-     *   stale:      0 seconds
+     *   stale:      30 seconds
      *   revalidate: 1 seconds
      *   expire:     1 seconds
      * ```
      * 
-     * This cache may be stale on clients for 0 seconds before checking with the server.
+     * This cache may be stale on clients for 30 seconds before checking with the server.
      * This cache will expire after 1 seconds. The next request will recompute it.
      */
     export function unstable_cacheLife(profile: "seconds"): void
